@@ -24,128 +24,188 @@
       {
         "language": "es",
         "default": true,
-        "groups": [
+        "tabs": [
           {
-            "group": "Empezar",
-            "pages": [
-              "es/welcome",
-              "es/empezar/que-es-kb2b",
-              "es/empezar/primera-conversacion"
+            "tab": "Producto",
+            "groups": [
+              {
+                "group": "Empezar",
+                "pages": [
+                  "es/welcome",
+                  "es/empezar/que-es-kb2b",
+                  "es/empezar/primera-conversacion"
+                ]
+              },
+              {
+                "group": "Uso diario",
+                "pages": [
+                  "es/usuario/chat-con-el-pot",
+                  "es/usuario/subir-documentos",
+                  "es/usuario/proyectos-y-etiquetas"
+                ]
+              },
+              {
+                "group": "Reuniones y hechos",
+                "pages": [
+                  "es/usuario/reuniones-resumenes-y-facts",
+                  "es/usuario/explorar-y-discutir-facts",
+                  "es/usuario/contradicciones-y-resolucion"
+                ]
+              },
+              {
+                "group": "Equipo e insights",
+                "pages": [
+                  "es/usuario/scout-agente-ia",
+                  "es/usuario/conocimiento-y-confianza",
+                  "es/usuario/organigrama"
+                ]
+              }
             ]
           },
           {
-            "group": "Para usuarios",
-            "pages": [
-              "es/usuario/chat-con-el-pot",
-              "es/usuario/subir-documentos",
-              "es/usuario/proyectos-y-etiquetas",
-              "es/usuario/reuniones-resumenes-y-facts",
-              "es/usuario/explorar-y-discutir-facts",
-              "es/usuario/contradicciones-y-resolucion",
-              "es/usuario/scout-agente-ia",
-              "es/usuario/conocimiento-y-confianza",
-              "es/usuario/organigrama"
+            "tab": "Admin",
+            "groups": [
+              {
+                "group": "Para administradores",
+                "pages": [
+                  "es/admin/planes-y-precios",
+                  "es/admin/facturacion",
+                  "es/admin/limites-de-tokens",
+                  "es/admin/constitucion-del-pot"
+                ]
+              }
             ]
           },
           {
-            "group": "Para administradores",
-            "pages": [
-              "es/admin/planes-y-precios",
-              "es/admin/facturacion",
-              "es/admin/limites-de-tokens",
-              "es/admin/constitucion-del-pot"
+            "tab": "Desktop",
+            "groups": [
+              {
+                "group": "kb2b Desktop",
+                "pages": [
+                  "es/escritorio/descargar-e-instalar",
+                  "es/escritorio/permisos-macos",
+                  "es/escritorio/emparejar-con-kb2b",
+                  "es/escritorio/grabar-reunion"
+                ]
+              }
             ]
           },
           {
-            "group": "kb2b Desktop",
-            "pages": [
-              "es/escritorio/descargar-e-instalar",
-              "es/escritorio/permisos-macos",
-              "es/escritorio/emparejar-con-kb2b",
-              "es/escritorio/grabar-reunion"
-            ]
-          },
-          {
-            "group": "Conceptos",
-            "pages": [
-              "es/conceptos/que-es-un-pot"
-            ]
-          },
-          {
-            "group": "Legal",
-            "pages": [
-              "es/legal/politica-de-grabacion",
-              "es/legal/confianza-y-datos"
-            ]
-          },
-          {
-            "group": "Cambios",
-            "pages": [
-              "es/cambios"
+            "tab": "Referencia",
+            "groups": [
+              {
+                "group": "Conceptos",
+                "pages": [
+                  "es/conceptos/que-es-un-pot"
+                ]
+              },
+              {
+                "group": "Legal",
+                "pages": [
+                  "es/legal/politica-de-grabacion",
+                  "es/legal/confianza-y-datos"
+                ]
+              },
+              {
+                "group": "Cambios",
+                "pages": [
+                  "es/cambios"
+                ]
+              }
             ]
           }
         ]
       },
       {
         "language": "en",
-        "groups": [
+        "tabs": [
           {
-            "group": "Get Started",
-            "pages": [
-              "en/welcome",
-              "en/get-started/what-is-kb2b",
-              "en/get-started/first-conversation"
+            "tab": "Product",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "en/welcome",
+                  "en/get-started/what-is-kb2b",
+                  "en/get-started/first-conversation"
+                ]
+              },
+              {
+                "group": "Daily use",
+                "pages": [
+                  "en/user/chat-with-the-pot",
+                  "en/user/upload-documents",
+                  "en/user/projects-and-tags"
+                ]
+              },
+              {
+                "group": "Meetings and facts",
+                "pages": [
+                  "en/user/meetings-summaries-and-facts",
+                  "en/user/explore-and-discuss-facts",
+                  "en/user/contradictions-and-resolution"
+                ]
+              },
+              {
+                "group": "Team and insights",
+                "pages": [
+                  "en/user/scout-ai-agent",
+                  "en/user/knowledge-and-trust",
+                  "en/user/org-chart"
+                ]
+              }
             ]
           },
           {
-            "group": "For users",
-            "pages": [
-              "en/user/chat-with-the-pot",
-              "en/user/upload-documents",
-              "en/user/projects-and-tags",
-              "en/user/meetings-summaries-and-facts",
-              "en/user/explore-and-discuss-facts",
-              "en/user/contradictions-and-resolution",
-              "en/user/scout-ai-agent",
-              "en/user/knowledge-and-trust",
-              "en/user/org-chart"
+            "tab": "Admin",
+            "groups": [
+              {
+                "group": "For admins",
+                "pages": [
+                  "en/admin/plans-and-pricing",
+                  "en/admin/billing",
+                  "en/admin/token-limits",
+                  "en/admin/pot-constitution"
+                ]
+              }
             ]
           },
           {
-            "group": "For admins",
-            "pages": [
-              "en/admin/plans-and-pricing",
-              "en/admin/billing",
-              "en/admin/token-limits",
-              "en/admin/pot-constitution"
+            "tab": "Desktop",
+            "groups": [
+              {
+                "group": "kb2b Desktop",
+                "pages": [
+                  "en/desktop/download-and-install",
+                  "en/desktop/macos-permissions",
+                  "en/desktop/pair-with-kb2b",
+                  "en/desktop/record-a-meeting"
+                ]
+              }
             ]
           },
           {
-            "group": "kb2b Desktop",
-            "pages": [
-              "en/desktop/download-and-install",
-              "en/desktop/macos-permissions",
-              "en/desktop/pair-with-kb2b",
-              "en/desktop/record-a-meeting"
-            ]
-          },
-          {
-            "group": "Concepts",
-            "pages": [
-              "en/concepts/what-is-a-pot"
-            ]
-          },
-          {
-            "group": "Legal",
-            "pages": [
-              "en/legal/recording-policy",
-              "en/legal/trust-and-data"
-            ]
-          },
-          {
-            "group": "Changelog",
-            "pages": [
-              "en/changelog"
+            "tab": "Reference",
+            "groups": [
+              {
+                "group": "Concepts",
+                "pages": [
+                  "en/concepts/what-is-a-pot"
+                ]
+              },
+              {
+                "group": "Legal",
+                "pages": [
+                  "en/legal/recording-policy",
+                  "en/legal/trust-and-data"
+                ]
+              },
+              {
+                "group": "Changelog",
+                "pages": [
+                  "en/changelog"
+                ]
+              }
             ]
           }
         ]
